@@ -9,6 +9,7 @@ export type Translations = {
     contact: string;
     githubRepo: string;
     webAccess: string;
+    privateRepo: string;
   };
   en: {
     about: string;
@@ -20,6 +21,7 @@ export type Translations = {
     description: string;
     githubRepo: string;
     webAccess: string;
+    privateRepo: string;
   };
 };
 
@@ -31,9 +33,10 @@ export const translations: Translations = {
     projects: "Projetos",
     contact: "Contatos",
     iam: "Eu sou",
-    description: "Sou Luiz Clovis, um Full Stack Developer brasileiro apaixonado por transformar desafios em soluções práticas e inovadoras. Minha jornada profissional é única: comecei na área operacional, evoluí para análise de dados e agora desenvolvo software com impacto real. Essa trajetória me dá uma perspectiva diferenciada sobre negócios e tecnologia. Sou movido por resolver problemas do mundo real, entregar código de qualidade e contribuir para equipes ágeis. Acredito que bom desenvolvimento começa com empatia pelo usuário e alinhamento com os objetivos do negócio.",
-    githubRepo: "Repositório Github!",
-    webAccess: "Acesso Web!"
+    description: "Sou Luiz Clovis, Desenvolvedor Full Stack com sólida vivência na construção de ecossistemas de software escaláveis, modernos e de missão crítica. Minha trajetória une visão de processos operacionais e análise de dados à engenharia de software de alta maturidade — desenvolvendo desde plataformas em nuvem e BI de alta performance (Python/Flask, PostgreSQL, Redis) até sistemas empresariais complexos, ERPs e aplicações desktop e móveis (.NET 8, C#, Node.js, Next.js e React Native). Especialista em transformar regras de negócio desafiadoras em arquiteturas limpas, código resiliente e interfaces fluidas, atuo com foco em entrega contínua de valor, segurança, performance e experiência do usuário.",
+    githubRepo: "Repositório GitHub",
+    webAccess: "Acesso Web",
+    privateRepo: "Repositório Privado"
   },
   en: {
     about: "About",
@@ -42,8 +45,9 @@ export const translations: Translations = {
     projects: "Projects",
     contact: "Contacts",
     iam: "I'm",
-    description: "I'm Luiz Clovis, a Brazilian Full Stack Developer passionate about transforming challenges into practical and innovative solutions. My professional journey is unique: I started in operations, evolved into data analysis, and now develop software with real impact. This background gives me a differentiated perspective on business and technology. I'm driven by solving real-world problems, delivering quality code, and contributing to agile teams. I believe great development starts with user empathy and alignment with business goals.",
-    githubRepo: "Github repository!",
-    webAccess: "Web Access!"
+    description: "I'm Luiz Clovis, a Full Stack Developer with solid experience in designing and building scalable, modern, mission-critical software ecosystems. My background bridges operational insight and data analysis with high-maturity software engineering — delivering everything from high-performance cloud platforms and BI solutions (Python/Flask, PostgreSQL, Redis) to enterprise ERPs, desktop and mobile systems (.NET 8, C#, Node.js, Next.js, and React Native). Specialized in turning complex business logic into clean architecture, resilient code, and seamless interfaces, I am driven by delivering continuous value, performance, security, and exceptional user experiences.",
+    githubRepo: "GitHub Repository",
+    webAccess: "Web Access",
+    privateRepo: "Private Repository"
   }
 };

@@ -3,7 +3,7 @@ export declare interface Experience {
     title: string;
     description: string;
     date: string;
-  }
+}
 
 export declare interface ExperienceTranslations {
     pt: Array<Experience>;
@@ -14,41 +14,53 @@ export const experience: ExperienceTranslations = {
     pt: [
         {
             id: 1,
-            title: "Desenvolvedor Full Stack",
-            description: "Projetei e construí aplicações do zero, cobrindo o ciclo completo de desenvolvimento. Desenvolvimento de aplicativo informativo especializado em gravidez, parto e pós-parto com interface intuitiva. Implementação de sistema de gerenciamento robusto com backend escalável. Aplicação de melhores práticas em arquitetura, código limpo e experiência do usuário.",
-            date: "2024"
+            title: "Desenvolvedor Full Stack (stintEdu)",
+            description: "Desenvolvimento e arquitetura de plataformas educacionais e soluções de Business Intelligence de alta performance. Construção e manutenção de APIs RESTful com Python e Flask, autenticação segura com JWT e background processing. Modelagem e otimização de banco de dados relacional com PostgreSQL (Neon), gestão de cache e filas distribuídas com Redis e armazenamento escalável de arquivos e mídias com Cloudflare R2. Orquestração e deploy contínuo em nuvem com Railway e Docker, garantindo alta disponibilidade, observabilidade e cobertura de testes automatizados.",
+            date: "Agosto 2026 - Presente"
         },
         {
             id: 2,
+            title: "Desenvolvedor Full Stack (JOYA Solutions)",
+            description: "Desenvolvimento de aplicações escaláveis com C#, Angular, Node.js e SQL Server. Arquitetura e construção de soluções serverless com Azure Functions. Criação e manutenção de APIs RESTful robustas e de alto desempenho. Implementação de ambientes padronizados com Docker e Git. Otimização de consultas SQL e melhorias estratégicas de arquitetura e performance de sistemas. Participação em sprints ágeis com entrega contínua de valor.",
+            date: "Setembro 2024 - Presente"
+        },
+        {
+            id: 3,
             title: "Desenvolvedor Front-end",
             description: "Desenvolvimento de aplicativos móveis cross-platform com React Native e TypeScript. Criação de interfaces responsivas e intuitivas com foco em experiência do usuário. Implementação de padrões de código limpo, gestão de estado e otimização de performance.",
             date: "2024"
         },
         {
-            id: 3,
-            title: "Desenvolvedor Full Stack (JOYA Solutions)",
-            description: "Desenvolvimento de aplicações escaláveis com C#, Angular, Node.js e SQL Server. Arquitetura e construção de soluções serverless com Azure Functions. Criação e manutenção de APIs RESTful robustas e de alto desempenho. Implementação de ambientes padronizados com Docker e Git. Otimização de consultas SQL e melhorias estratégicas de arquitetura e performance de sistemas. Participação em sprints ágeis com entrega contínua de valor.",
-            date: "Setembro 2024 - Presente"
+            id: 4,
+            title: "Desenvolvedor Full Stack",
+            description: "Projetei e construí aplicações do zero, cobrindo o ciclo completo de desenvolvimento. Desenvolvimento de aplicativo informativo especializado em gravidez, parto e pós-parto com interface intuitiva. Implementação de sistema de gerenciamento robusto com backend escalável. Aplicação de melhores práticas em arquitetura, código limpo e experiência do usuário.",
+            date: "2024"
         }
     ],
     en: [
         {
             id: 1,
-            title: "Full Stack Developer",
-            description: "Designed and built applications from the ground up, covering the complete development lifecycle. Developed an informative app specialized in pregnancy, childbirth, and postpartum care with intuitive interface. Implemented robust management system with scalable backend. Applied best practices in architecture, clean code, and user experience.",
-            date: "2024"
+            title: "Full Stack Developer (stintEdu)",
+            description: "Development and architecture of high-performance educational platforms and Business Intelligence solutions. Construction and maintenance of RESTful APIs with Python and Flask, secure JWT authentication, and background processing. Relational database modeling and optimization with PostgreSQL (Neon), distributed cache and queue management with Redis, and scalable object storage with Cloudflare R2. Cloud orchestration and continuous deployment with Railway and Docker, ensuring high availability, observability, and automated test coverage.",
+            date: "August 2026 - Present"
         },
         {
             id: 2,
+            title: "Full Stack Developer (JOYA Solutions)",
+            description: "Development of scalable applications with C#, Angular, Node.js, and SQL Server. Architecture and construction of serverless solutions with Azure Functions. Creation and maintenance of robust and high-performance RESTful APIs. Implementation of standardized environments with Docker and Git. SQL query optimization and strategic improvements in system architecture and performance. Participation in agile sprints with continuous value delivery.",
+            date: "September 2024 - Present"
+        },
+        {
+            id: 3,
             title: "Front-end Developer",
             description: "Development of cross-platform mobile applications with React Native and TypeScript. Creation of responsive and intuitive interfaces with focus on user experience. Implementation of clean code patterns, state management, and performance optimization.",
             date: "2024"
         },
         {
-            id: 3,
-            title: "Full Stack Developer (JOYA Solutions)",
-            description: "Development of scalable applications with C#, Angular, Node.js, and SQL Server. Architecture and construction of serverless solutions with Azure Functions. Creation and maintenance of robust and high-performance RESTful APIs. Implementation of standardized environments with Docker and Git. SQL query optimization and strategic improvements in system architecture and performance. Participation in agile sprints with continuous value delivery.",
-            date: "September 2024 - Present"
+            id: 4,
+            title: "Full Stack Developer",
+            description: "Designed and built applications from the ground up, covering the complete development lifecycle. Developed an informative app specialized in pregnancy, childbirth, and postpartum care with intuitive interface. Implemented robust management system with scalable backend. Applied best practices in architecture, clean code, and user experience.",
+            date: "2024"
         }
     ]
 };

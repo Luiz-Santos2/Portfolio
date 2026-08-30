@@ -13,7 +13,7 @@ const OptimizedImage = memo(({ src, alt, className, fallbackSrc }: OptimizedImag
   const { imageSrc, isLoading, error } = useOptimizedImage(src);
 
   if (isLoading) {
-    return <div className={className} style={{ minHeight: '20px', background: '#f0f0f0' }} />;
+    return null;
   }
 
   if (error && fallbackSrc) {
@@ -21,7 +21,7 @@ const OptimizedImage = memo(({ src, alt, className, fallbackSrc }: OptimizedImag
   }
 
   if (error) {
-    return <div className={className} style={{ minHeight: '20px', background: '#f0f0f0' }} />;
+    return null;
   }
 
   return <img src={imageSrc} alt={alt} className={className} loading="lazy" />;

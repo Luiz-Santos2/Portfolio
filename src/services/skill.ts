@@ -3,7 +3,7 @@ export declare interface Skill {
     title: string;
     skills: string;
     icons: string;
-  }
+}
 
 export declare interface SkillTranslations {
     pt: Array<Skill>;
@@ -14,21 +14,21 @@ export const skills: SkillTranslations = {
     pt: [
         {
             id: 1,
-            title: "Front-end",
-            skills: "HTML, JavaScript, React, Next.js, Angular, Node.js, TypeScript, CSS, Styled Components, Tailwind CSS, Selenium",
-            icons: "html,css,js,react,nextjs,angular,nodejs,typescript,tailwind,styledcomponents,selenium"
+            title: "Back-end",
+            skills: "Python, Flask, C#, .NET, Node.js, APIs RESTful, JWT, Redis, Microsserviços",
+            icons: "py,flask,cs,dotnet,nodejs,redis"
         },
         {
             id: 2,
-            title: "Back-end",
-            skills: "C#, .NET",
-            icons: "cs,dotnet"
+            title: "Front-end",
+            skills: "TypeScript, JavaScript, React, Next.js, Angular, HTML5, CSS3, Tailwind CSS, Styled Components, Selenium",
+            icons: "typescript,js,react,nextjs,angular,html,css,tailwind,styledcomponents,selenium"
         },
         {
             id: 3,
             title: "Bancos de Dados",
-            skills: "Firebase, PostgreSQL, SQL Server, MongoDB, MySQL",
-            icons: "firebase,postgresql,mongodb,mysql"
+            skills: "PostgreSQL, SQL Server, MongoDB, MySQL, Firebase",
+            icons: "postgresql,mongodb,mysql,firebase"
         },
         {
             id: 4,
@@ -38,29 +38,29 @@ export const skills: SkillTranslations = {
         },
         {
             id: 5,
-            title: "Ferramentas",
-            skills: "Android Studio, Postman, Vercel, Git, GitHub, GitLab, GitHub Actions, Bash, Powershell, Visual Studio Code, Visual Studio, Docker, Discord",
-            icons: "androidstudio,postman,vercel,git,github,gitlab,githubactions,bash,powershell,vscode,visualstudio,docker,discord"
+            title: "DevOps & Ferramentas",
+            skills: "Docker, Git, GitHub, GitLab, GitHub Actions, Railway, Cloudflare R2, Postman, Vercel, Bash, Powershell, VS Code, Visual Studio",
+            icons: "docker,git,github,gitlab,githubactions,cloudflare,postman,vercel,bash,powershell,vscode,visualstudio"
         }
     ],
     en: [
         {
             id: 1,
-            title: "Front-end",
-            skills: "HTML, JavaScript, React, Next.js, Angular, Node.js, TypeScript, CSS, Styled Components, Tailwind CSS, Selenium",
-            icons: "html,css,js,react,nextjs,angular,nodejs,typescript,tailwind,styledcomponents,selenium"
+            title: "Back-end",
+            skills: "Python, Flask, C#, .NET, Node.js, RESTful APIs, JWT, Redis, Microservices",
+            icons: "py,flask,cs,dotnet,nodejs,redis"
         },
         {
             id: 2,
-            title: "Back-end",
-            skills: "C#, .NET",
-            icons: "cs,dotnet"
+            title: "Front-end",
+            skills: "TypeScript, JavaScript, React, Next.js, Angular, HTML5, CSS3, Tailwind CSS, Styled Components, Selenium",
+            icons: "typescript,js,react,nextjs,angular,html,css,tailwind,styledcomponents,selenium"
         },
         {
             id: 3,
-            title: "DataBases",
-            skills: "Firebase, PostgreSQL, SQL Server, MongoDB, MySQL",
-            icons: "firebase,postgresql,mongodb,mysql"
+            title: "Databases",
+            skills: "PostgreSQL, SQL Server, MongoDB, MySQL, Firebase",
+            icons: "postgresql,mongodb,mysql,firebase"
         },
         {
             id: 4,
@@ -70,9 +70,9 @@ export const skills: SkillTranslations = {
         },
         {
             id: 5,
-            title: "Tools",
-            skills: "Android Studio, Postman, Vercel, Git, GitHub, GitLab, GitHub Actions, Bash, Powershell, Visual Studio Code, Visual Studio, Docker, Discord",
-            icons: "androidstudio,postman,vercel,git,github,gitlab,githubactions,bash,powershell,vscode,visualstudio,docker,discord"
+            title: "DevOps & Tools",
+            skills: "Docker, Git, GitHub, GitLab, GitHub Actions, Railway, Cloudflare R2, Postman, Vercel, Bash, Powershell, VS Code, Visual Studio",
+            icons: "docker,git,github,gitlab,githubactions,cloudflare,postman,vercel,bash,powershell,vscode,visualstudio"
         }
     ]
 };
