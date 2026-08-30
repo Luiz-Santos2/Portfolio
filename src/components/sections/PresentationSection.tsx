@@ -11,7 +11,7 @@ const PresentationSection = memo(() => {
     <section className={styles.presentation} id="about">
       <div className={styles.myInfo}>
         <h2>
-          {translate('iam')}
+          {translate('iam')},
           <span>
             <a
               href="https://github.com/luiz-santos2"
@@ -20,7 +20,7 @@ const PresentationSection = memo(() => {
               rel="noopener noreferrer"
               aria-label="Abrir GitHub em nova aba"
             >
-              Luiz Clovis
+              Luiz Clovis!
             </a>
           </span>
         </h2>

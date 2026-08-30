@@ -14,7 +14,7 @@ export const experience: ExperienceTranslations = {
     pt: [
         {
             id: 1,
-            title: "Desenvolvedor Full Stack (stintEdu)",
+            title: "Desenvolvedor Full Stack (StintEdu)",
             description: "Desenvolvimento e arquitetura de plataformas educacionais e soluções de Business Intelligence de alta performance. Construção e manutenção de APIs RESTful com Python e Flask, autenticação segura com JWT e background processing. Modelagem e otimização de banco de dados relacional com PostgreSQL (Neon), gestão de cache e filas distribuídas com Redis e armazenamento escalável de arquivos e mídias com Cloudflare R2. Orquestração e deploy contínuo em nuvem com Railway e Docker, garantindo alta disponibilidade, observabilidade e cobertura de testes automatizados.",
             date: "Agosto 2026 - Presente"
         },
