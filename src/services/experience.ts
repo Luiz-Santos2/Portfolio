@@ -40,13 +40,13 @@ export const experience: ExperienceTranslations = {
     en: [
         {
             id: 1,
-            title: "Full Stack Developer (stintEdu)",
+            title: "Full Stack Developer (StintEdu)",
             description: "Development and architecture of high-performance educational platforms and Business Intelligence solutions. Construction and maintenance of RESTful APIs with Python and Flask, secure JWT authentication, and background processing. Relational database modeling and optimization with PostgreSQL (Neon), distributed cache and queue management with Redis, and scalable object storage with Cloudflare R2. Cloud orchestration and continuous deployment with Railway and Docker, ensuring high availability, observability, and automated test coverage.",
             date: "August 2026 - Present"
         },
         {
             id: 2,
-            title: "Full Stack Developer (JOYA Solutions)",
+            title: "Full Stack Developer (Joya Solutions)",
             description: "Development of scalable applications with C#, Angular, Node.js, and SQL Server. Architecture and construction of serverless solutions with Azure Functions. Creation and maintenance of robust and high-performance RESTful APIs. Implementation of standardized environments with Docker and Git. SQL query optimization and strategic improvements in system architecture and performance. Participation in agile sprints with continuous value delivery.",
             date: "September 2024 - Present"
         },
