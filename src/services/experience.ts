@@ -20,7 +20,7 @@ export const experience: ExperienceTranslations = {
         },
         {
             id: 2,
-            title: "Desenvolvedor Full Stack (JOYA Solutions)",
+            title: "Desenvolvedor Full Stack (Joya Solutions)",
             description: "Desenvolvimento de aplicações escaláveis com C#, Angular, Node.js e SQL Server. Arquitetura e construção de soluções serverless com Azure Functions. Criação e manutenção de APIs RESTful robustas e de alto desempenho. Implementação de ambientes padronizados com Docker e Git. Otimização de consultas SQL e melhorias estratégicas de arquitetura e performance de sistemas. Participação em sprints ágeis com entrega contínua de valor.",
             date: "Setembro 2024 - Presente"
         },
