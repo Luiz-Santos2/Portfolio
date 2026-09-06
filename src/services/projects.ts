@@ -75,6 +75,16 @@ export const projects: ProjectTranslations = {
             Tags: ["React", "TypeScript", "Vercel", "GitHub Actions"],
             SkillsIcons: "react,ts,vercel,githubactions",
             Private: false
+        },
+        {
+            id: 7,
+            Title: "IA Aplicada — Guia Interativo",
+            Description: "Plataforma interativa de capacitação e estudos avançados em Inteligência Artificial Aplicada. Trilha estruturada em 15 módulos práticos abrangendo LLMs, RAG (Retrieval-Augmented Generation), MCP (Model Context Protocol), Agentes Autônomos, Orquestração Multi-Agente, Function Calling, Embeddings, Observabilidade, Guardrails e IA em Produtos.",
+            RepositoryURL: undefined,
+            ProjectURL: "https://mini-curso-ai.vercel.app/",
+            Tags: ["React 19", "TypeScript", "Vite", "IA Aplicada", "LLMs", "RAG", "MCP", "Multi-Agentes"],
+            SkillsIcons: "react,ts,vite",
+            Private: true
         }
     ],
     en: [
@@ -137,6 +147,16 @@ export const projects: ProjectTranslations = {
             Tags: ["React", "TypeScript", "Vercel", "GitHub Actions"],
             SkillsIcons: "react,ts,vercel,githubactions",
             Private: false
+        },
+        {
+            id: 7,
+            Title: "Applied AI — Interactive Guide",
+            Description: "Interactive platform for training and advanced studies in Applied Artificial Intelligence. Structured curriculum across 15 practical modules covering LLMs, RAG (Retrieval-Augmented Generation), MCP (Model Context Protocol), Autonomous Agents, Multi-Agent Orchestration, Function Calling, Embeddings, Observability, Guardrails, and AI in Products.",
+            RepositoryURL: undefined,
+            ProjectURL: "https://mini-curso-ai.vercel.app/",
+            Tags: ["React 19", "TypeScript", "Vite", "Applied AI", "LLMs", "RAG", "MCP", "Multi-Agent"],
+            SkillsIcons: "react,ts,vite",
+            Private: true
         }
     ]
 };
