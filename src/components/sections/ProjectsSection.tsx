@@ -4,7 +4,7 @@ import { AiFillChrome, AiFillGithub, AiFillLock } from 'react-icons/ai';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { usePortfolioData } from '@/hooks/usePortfolioData';
 import { Project } from '@/services/projects';
-import OptimizedImage from '@/components/common/OptimizedImage';
+import TechIcons from '@/components/common/TechIcons';
 import styles from '../../app/page.module.css';
 
 const ProjectItem = memo(({ project }: { project: Project }) => {
@@ -58,11 +58,7 @@ const ProjectItem = memo(({ project }: { project: Project }) => {
             )}
           </div>
 
-          <OptimizedImage 
-            className={styles.tecIcons} 
-            src={`https://skillicons.dev/icons?i=${project.SkillsIcons}`} 
-            alt={`Tecnologias utilizadas no projeto ${project.Title}`} 
-          />
+          <TechIcons icons={project.SkillsIcons} size="sm" />
         </div>
       </div>
     </li>

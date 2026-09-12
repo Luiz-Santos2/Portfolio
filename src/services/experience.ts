@@ -14,52 +14,52 @@ export const experience: ExperienceTranslations = {
     pt: [
         {
             id: 1,
-            title: "Desenvolvedor Full Stack (StintEdu)",
-            description: "Desenvolvimento e arquitetura de plataformas educacionais e soluções de Business Intelligence de alta performance. Construção e manutenção de APIs RESTful com Python e Flask, autenticação segura com JWT e background processing. Modelagem e otimização de banco de dados relacional com PostgreSQL (Neon), gestão de cache e filas distribuídas com Redis e armazenamento escalável de arquivos e mídias com Cloudflare R2. Orquestração e deploy contínuo em nuvem com Railway e Docker, garantindo alta disponibilidade, observabilidade e cobertura de testes automatizados.",
+            title: "Desenvolvedor Full Stack — StintEdu",
+            description: "Arquitetura e desenvolvimento da plataforma educacional e soluções analíticas de Business Intelligence. Construção de APIs RESTful com Python e Flask, autenticação segura com JWT e processamento assíncrono. Modelagem e otimização de banco de dados relacional com PostgreSQL, gestão de cache e filas distribuídas com Redis e armazenamento escalável com Cloudflare R2. Orquestração e deploy contínuo em nuvem com Railway e Docker.",
             date: "Agosto 2026 - Presente"
         },
         {
             id: 2,
-            title: "Desenvolvedor Full Stack (Joya Solutions)",
-            description: "Desenvolvimento de aplicações escaláveis com C#, Angular, Node.js e SQL Server. Arquitetura e construção de soluções serverless com Azure Functions. Criação e manutenção de APIs RESTful robustas e de alto desempenho. Implementação de ambientes padronizados com Docker e Git. Otimização de consultas SQL e melhorias estratégicas de arquitetura e performance de sistemas. Participação em sprints ágeis com entrega contínua de valor.",
+            title: "Desenvolvedor Full Stack — Joya Solutions",
+            description: "Desenvolvimento e sustentação de sistemas corporativos de alta disponibilidade. Criação de APIs robustas e microsserviços com C# / .NET 8 e Node.js, interfaces dinâmicas com Angular e soluções serverless no Azure Functions. Otimização de consultas e procedimentos em SQL Server, conteinerização com Docker e atuação em times ágeis com foco em entrega contínua.",
             date: "Setembro 2024 - Presente"
         },
         {
             id: 3,
-            title: "Desenvolvedor Front-end",
-            description: "Desenvolvimento de aplicativos móveis cross-platform com React Native e TypeScript. Criação de interfaces responsivas e intuitivas com foco em experiência do usuário. Implementação de padrões de código limpo, gestão de estado e otimização de performance.",
+            title: "Engenheiro Front-end & Mobile",
+            description: "Engenharia de aplicativos móveis multiplataforma com React Native e TypeScript. Criação de interfaces responsivas, arquitetura modular, suporte offline, gerenciamento de estado global e integração com serviços em nuvem, garantindo alta fluidez e excelente experiência do usuário.",
             date: "2024"
         },
         {
             id: 4,
-            title: "Desenvolvedor Full Stack",
-            description: "Projetei e construí aplicações do zero, cobrindo o ciclo completo de desenvolvimento. Desenvolvimento de aplicativo informativo especializado em gravidez, parto e pós-parto com interface intuitiva. Implementação de sistema de gerenciamento robusto com backend escalável. Aplicação de melhores práticas em arquitetura, código limpo e experiência do usuário.",
+            title: "Engenheiro Full Stack — Produtos Web",
+            description: "Desenvolvimento de produtos digitais de ponta a ponta, incluindo painéis administrativos (backoffice) em Next.js e React. Modelagem de dados, implementação de fluxos de autenticação, APIs escaláveis, integração de serviços de terceiros e automação de pipelines de CI/CD.",
             date: "2024"
         }
     ],
     en: [
         {
             id: 1,
-            title: "Full Stack Developer (StintEdu)",
-            description: "Development and architecture of high-performance educational platforms and Business Intelligence solutions. Construction and maintenance of RESTful APIs with Python and Flask, secure JWT authentication, and background processing. Relational database modeling and optimization with PostgreSQL (Neon), distributed cache and queue management with Redis, and scalable object storage with Cloudflare R2. Cloud orchestration and continuous deployment with Railway and Docker, ensuring high availability, observability, and automated test coverage.",
+            title: "Full Stack Developer — StintEdu",
+            description: "Architecture and engineering of educational platforms and analytical Business Intelligence solutions. Development of RESTful APIs with Python and Flask, secure JWT authentication, and asynchronous task processing. Database modeling and optimization with PostgreSQL, distributed caching and queues with Redis, and scalable object storage with Cloudflare R2. Cloud orchestration and continuous deployment via Railway and Docker.",
             date: "August 2026 - Present"
         },
         {
             id: 2,
-            title: "Full Stack Developer (Joya Solutions)",
-            description: "Development of scalable applications with C#, Angular, Node.js, and SQL Server. Architecture and construction of serverless solutions with Azure Functions. Creation and maintenance of robust and high-performance RESTful APIs. Implementation of standardized environments with Docker and Git. SQL query optimization and strategic improvements in system architecture and performance. Participation in agile sprints with continuous value delivery.",
+            title: "Full Stack Developer — Joya Solutions",
+            description: "Engineering and maintenance of high-availability enterprise systems. Development of robust APIs and microservices with C# / .NET 8 and Node.js, dynamic user interfaces with Angular, and serverless architectures using Azure Functions. Database query and procedure optimization in SQL Server, containerization with Docker, and active participation in agile sprints with continuous delivery.",
             date: "September 2024 - Present"
         },
         {
             id: 3,
-            title: "Front-end Developer",
-            description: "Development of cross-platform mobile applications with React Native and TypeScript. Creation of responsive and intuitive interfaces with focus on user experience. Implementation of clean code patterns, state management, and performance optimization.",
+            title: "Front-end & Mobile Engineer",
+            description: "Cross-platform mobile application engineering with React Native and TypeScript. Development of responsive user interfaces, modular architecture, offline capabilities, state management, and cloud integrations, prioritizing seamless UX and high performance.",
             date: "2024"
         },
         {
             id: 4,
-            title: "Full Stack Developer",
-            description: "Designed and built applications from the ground up, covering the complete development lifecycle. Developed an informative app specialized in pregnancy, childbirth, and postpartum care with intuitive interface. Implemented robust management system with scalable backend. Applied best practices in architecture, clean code, and user experience.",
+            title: "Full Stack Engineer — Web Products",
+            description: "End-to-end digital product engineering, including administrative web portals and backoffice systems with Next.js and React. Data modeling, secure authentication, scalable APIs, third-party integrations, and automated CI/CD deployment pipelines.",
             date: "2024"
         }
     ]

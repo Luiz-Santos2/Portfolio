@@ -5,7 +5,7 @@ export declare interface Project {
     RepositoryURL?: string;
     ProjectURL?: string;
     Tags: Array<string>;
-    SkillsIcons: string;
+    SkillsIcons: string | Array<string>;
     Private?: boolean;
 }
 
@@ -23,7 +23,7 @@ export const projects: ProjectTranslations = {
             RepositoryURL: undefined,
             ProjectURL: undefined,
             Tags: [".NET 8", "C#", "WPF", "SQL Server", "Biometria", "Clean Architecture", "Entity Framework"],
-            SkillsIcons: "cs,dotnet,windows",
+            SkillsIcons: "csharp,dotnet,sqlserver,windows",
             Private: true
         },
         {
@@ -31,9 +31,9 @@ export const projects: ProjectTranslations = {
             Title: "PipoFinance",
             Description: "Plataforma avançada de inteligência e gestão financeira pessoal. Arquitetura moderna e reativa construída com Next.js 15 (App Router), React 19, TypeScript e Supabase (PostgreSQL), com autenticação segura Google OAuth, controle de contas, cartões de crédito parcelados, recorrências e indicadores econômicos.",
             RepositoryURL: undefined,
-            ProjectURL: undefined,
+            ProjectURL: "https://pipofinance.vercel.app/",
             Tags: ["Next.js 15", "React 19", "Supabase", "PostgreSQL", "TypeScript", "Tailwind CSS"],
-            SkillsIcons: "nextjs,react,supabase,postgres,ts,tailwind",
+            SkillsIcons: "nextjs,react,supabase,postgresql,typescript,tailwind",
             Private: true
         },
         {
@@ -43,7 +43,7 @@ export const projects: ProjectTranslations = {
             RepositoryURL: undefined,
             ProjectURL: undefined,
             Tags: ["Node.js", "TypeScript", "PostgreSQL", "Next.js", "Electron", "React Native", "Expo"],
-            SkillsIcons: "nodejs,ts,postgres,nextjs,react,electron",
+            SkillsIcons: "nodejs,typescript,postgresql,nextjs,electron,reactnative,expo",
             Private: true
         },
         {
@@ -53,7 +53,7 @@ export const projects: ProjectTranslations = {
             RepositoryURL: "https://github.com/Luiz-Santos2/meu-parto/tree/firebase",
             ProjectURL: "https://expo.dev/preview/update?message=Realizado%20ajuste%20em%20todo%20o%20app%20e%20retirado%20o%20build%20do%20github%20actions&updateRuntimeVersion=1.0.0&createdAt=2024-06-01T01%3A04%3A24.744Z&slug=exp&projectId=a8cd90a2-b424-415a-bab0-e60a456b8363&group=5f531c2a-bc70-4225-9d1a-a66fa729a513",
             Tags: ["React Native", "TypeScript", "Expo", "Firebase", "CI/CD"],
-            SkillsIcons: "react,ts,firebase,githubactions",
+            SkillsIcons: "reactnative,typescript,expo,firebase,githubactions",
             Private: false
         },
         {
@@ -63,7 +63,7 @@ export const projects: ProjectTranslations = {
             RepositoryURL: "https://github.com/Luiz-Santos2/gerenciador-meu-parto",
             ProjectURL: "https://gerenciador-meu-parto.vercel.app/",
             Tags: ["Next.js", "TypeScript", "React", "GitHub Actions", "Vercel"],
-            SkillsIcons: "nextjs,ts,githubactions,vercel",
+            SkillsIcons: "nextjs,typescript,react,githubactions,vercel",
             Private: false
         },
         {
@@ -73,7 +73,7 @@ export const projects: ProjectTranslations = {
             RepositoryURL: "https://github.com/Luiz-Santos2/forest-equipment",
             ProjectURL: "https://forest-equipment.vercel.app/",
             Tags: ["React", "TypeScript", "Vercel", "GitHub Actions"],
-            SkillsIcons: "react,ts,vercel,githubactions",
+            SkillsIcons: "react,typescript,vercel,githubactions",
             Private: false
         },
         {
@@ -83,7 +83,17 @@ export const projects: ProjectTranslations = {
             RepositoryURL: undefined,
             ProjectURL: "https://mini-curso-ai.vercel.app/",
             Tags: ["React 19", "TypeScript", "Vite", "IA Aplicada", "LLMs", "RAG", "MCP", "Multi-Agentes"],
-            SkillsIcons: "react,ts,vite",
+            SkillsIcons: "react,typescript,vite,claude,openai",
+            Private: true
+        },
+        {
+            id: 8,
+            Title: "PJControl",
+            Description: "Plataforma de gestão financeira e conformidade fiscal para MEI, Microempresas e Prestadores de Serviços PJ. Suporte a processamento e upload inteligente de notas fiscais (XML NF-e/NFS-e, PDF DANFSE e CSV), cálculo de faturamento acumulado, projeção de faturamento e monitoramento em tempo real do teto anual de enquadramento com persistência em nuvem e Row Level Security.",
+            RepositoryURL: undefined,
+            ProjectURL: undefined,
+            Tags: ["Next.js 14", "React", "Supabase", "PostgreSQL", "TypeScript", "Tailwind CSS"],
+            SkillsIcons: "nextjs,react,supabase,postgresql,typescript,tailwind",
             Private: true
         }
     ],
@@ -95,7 +105,7 @@ export const projects: ProjectTranslations = {
             RepositoryURL: undefined,
             ProjectURL: undefined,
             Tags: [".NET 8", "C#", "WPF", "SQL Server", "Biometrics", "Clean Architecture", "Entity Framework"],
-            SkillsIcons: "cs,dotnet,windows",
+            SkillsIcons: "csharp,dotnet,sqlserver,windows",
             Private: true
         },
         {
@@ -103,9 +113,9 @@ export const projects: ProjectTranslations = {
             Title: "PipoFinance",
             Description: "Advanced personal financial intelligence and management platform. Modern reactive architecture built with Next.js 15 (App Router), React 19, TypeScript, and Supabase (PostgreSQL), featuring Google OAuth authentication, account management, installment tracking, and live market indicators.",
             RepositoryURL: undefined,
-            ProjectURL: undefined,
+            ProjectURL: "https://pipofinance.vercel.app/",
             Tags: ["Next.js 15", "React 19", "Supabase", "PostgreSQL", "TypeScript", "Tailwind CSS"],
-            SkillsIcons: "nextjs,react,supabase,postgres,ts,tailwind",
+            SkillsIcons: "nextjs,react,supabase,postgresql,typescript,tailwind",
             Private: true
         },
         {
@@ -115,7 +125,7 @@ export const projects: ProjectTranslations = {
             RepositoryURL: undefined,
             ProjectURL: undefined,
             Tags: ["Node.js", "TypeScript", "PostgreSQL", "Next.js", "Electron", "React Native", "Expo"],
-            SkillsIcons: "nodejs,ts,postgres,nextjs,react,electron",
+            SkillsIcons: "nodejs,typescript,postgresql,nextjs,electron,reactnative,expo",
             Private: true
         },
         {
@@ -125,7 +135,7 @@ export const projects: ProjectTranslations = {
             RepositoryURL: "https://github.com/Luiz-Santos2/meu-parto/tree/firebase",
             ProjectURL: "https://expo.dev/preview/update?message=Realizado%20ajuste%20em%20todo%20o%20app%20e%20retirado%20o%20build%20do%20github%20actions&updateRuntimeVersion=1.0.0&createdAt=2024-06-01T01%3A04%3A24.744Z&slug=exp&projectId=a8cd90a2-b424-415a-bab0-e60a456b8363&group=5f531c2a-bc70-4225-9d1a-a66fa729a513",
             Tags: ["React Native", "TypeScript", "Expo", "Firebase", "CI/CD"],
-            SkillsIcons: "react,ts,firebase,githubactions",
+            SkillsIcons: "reactnative,typescript,expo,firebase,githubactions",
             Private: false
         },
         {
@@ -135,7 +145,7 @@ export const projects: ProjectTranslations = {
             RepositoryURL: "https://github.com/Luiz-Santos2/gerenciador-meu-parto",
             ProjectURL: "https://gerenciador-meu-parto.vercel.app/",
             Tags: ["Next.js", "TypeScript", "React", "GitHub Actions", "Vercel"],
-            SkillsIcons: "nextjs,ts,githubactions,vercel",
+            SkillsIcons: "nextjs,typescript,react,githubactions,vercel",
             Private: false
         },
         {
@@ -145,7 +155,7 @@ export const projects: ProjectTranslations = {
             RepositoryURL: "https://github.com/Luiz-Santos2/forest-equipment",
             ProjectURL: "https://forest-equipment.vercel.app/",
             Tags: ["React", "TypeScript", "Vercel", "GitHub Actions"],
-            SkillsIcons: "react,ts,vercel,githubactions",
+            SkillsIcons: "react,typescript,vercel,githubactions",
             Private: false
         },
         {
@@ -155,7 +165,17 @@ export const projects: ProjectTranslations = {
             RepositoryURL: undefined,
             ProjectURL: "https://mini-curso-ai.vercel.app/",
             Tags: ["React 19", "TypeScript", "Vite", "Applied AI", "LLMs", "RAG", "MCP", "Multi-Agent"],
-            SkillsIcons: "react,ts,vite",
+            SkillsIcons: "react,typescript,vite,claude,openai",
+            Private: true
+        },
+        {
+            id: 8,
+            Title: "PJControl",
+            Description: "Financial management and tax compliance platform designed for freelancers, contractors, and small business entities (MEI/ME/PJ). Features intelligent invoice parsing and upload (XML, PDF DANFSE, and CSV), cumulative revenue tracking, revenue forecasting, and real-time annual tax ceiling monitoring powered by Supabase and Row Level Security.",
+            RepositoryURL: undefined,
+            ProjectURL: undefined,
+            Tags: ["Next.js 14", "React", "Supabase", "PostgreSQL", "TypeScript", "Tailwind CSS"],
+            SkillsIcons: "nextjs,react,supabase,postgresql,typescript,tailwind",
             Private: true
         }
     ]

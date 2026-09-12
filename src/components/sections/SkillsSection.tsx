@@ -2,18 +2,16 @@
 import React, { memo } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { usePortfolioData } from '@/hooks/usePortfolioData';
-import OptimizedImage from '@/components/common/OptimizedImage';
+import { Skill } from '@/services/skill';
+import TechIcons from '@/components/common/TechIcons';
 import styles from '../../app/page.module.css';
 
-const SkillItem = memo(({ skill }: { skill: any }) => (
+const SkillItem = memo(({ skill }: { skill: Skill }) => (
   <li key={skill.id} className={styles.skill}>
     <p className={styles.skillTitle}>{skill.title}</p>
     <div>
       <p className={styles.skills}>{skill.skills}</p>
-      <OptimizedImage 
-        src={`https://skillicons.dev/icons?i=${skill.icons}`} 
-        alt="Skills Image." 
-      />
+      <TechIcons icons={skill.icons} size="md" />
     </div>
   </li>
 ));

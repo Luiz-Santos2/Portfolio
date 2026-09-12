@@ -33,7 +33,7 @@ export const translations: Translations = {
     projects: "Projetos",
     contact: "Contatos",
     iam: "Eu sou",
-    description: "Sou Luiz Clovis, Desenvolvedor Full Stack com sólida vivência na construção de ecossistemas de software escaláveis, modernos e de missão crítica. Minha trajetória une visão de processos operacionais e análise de dados à engenharia de software de alta maturidade — desenvolvendo desde plataformas em nuvem e BI de alta performance (Python/Flask, PostgreSQL, Redis) até sistemas empresariais complexos, ERPs e aplicações desktop e móveis (.NET 8, C#, Node.js, Next.js e React Native). Especialista em transformar regras de negócio desafiadoras em arquiteturas limpas, código resiliente e interfaces fluidas, atuo com foco em entrega contínua de valor, segurança, performance e experiência do usuário.",
+    description: "Sou Luiz Clovis, Desenvolvedor Full Stack especializado na criação de ecossistemas de software escaláveis, modernos e de alta performance. Atuo no ciclo completo de engenharia — desde a arquitetura de back-ends robustos e bancos de dados relacionais e distribuídos (.NET 8, C#, Node.js, Python, PostgreSQL, SQL Server e Supabase) até interfaces fluidas e intuitivas com Next.js, React e React Native. Aplico práticas consolidadas de Clean Architecture, metodologias ágeis e desenvolvimento assistido por IA (SDD), com foco contínuo em qualidade de código, segurança, escalabilidade e impacto real de negócio.",
     githubRepo: "Repositório GitHub",
     webAccess: "Acesso Web",
     privateRepo: "Repositório Privado"
@@ -45,7 +45,7 @@ export const translations: Translations = {
     projects: "Projects",
     contact: "Contacts",
     iam: "I'm",
-    description: "I'm Luiz Clovis, a Full Stack Developer with solid experience in designing and building scalable, modern, mission-critical software ecosystems. My background bridges operational insight and data analysis with high-maturity software engineering — delivering everything from high-performance cloud platforms and BI solutions (Python/Flask, PostgreSQL, Redis) to enterprise ERPs, desktop and mobile systems (.NET 8, C#, Node.js, Next.js, and React Native). Specialized in turning complex business logic into clean architecture, resilient code, and seamless interfaces, I am driven by delivering continuous value, performance, security, and exceptional user experiences.",
+    description: "I'm Luiz Clovis, a Full Stack Developer specialized in building scalable, modern, and high-performance software ecosystems. I cover the entire engineering lifecycle — from designing resilient back-ends and robust relational and distributed databases (.NET 8, C#, Node.js, Python, PostgreSQL, SQL Server, and Supabase) to crafting responsive, intuitive interfaces with Next.js, React, and React Native. I leverage Clean Architecture, agile practices, and AI-assisted development (SDD), focusing on code quality, security, scalability, and measurable business impact.",
     githubRepo: "GitHub Repository",
     webAccess: "Web Access",
     privateRepo: "Private Repository"
