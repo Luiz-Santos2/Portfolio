@@ -29,11 +29,11 @@ export const projects: ProjectTranslations = {
         {
             id: 2,
             Title: "PipoFinance",
-            Description: "Plataforma avançada de gestão e inteligência financeira pessoal. Arquitetura moderna de microsserviços em .NET 8, banco de dados NoSQL MongoDB, frontend reativo em Next.js e TypeScript, proporcionando controle orçamentário automatizado, relatórios de fluxo de caixa e alta escalabilidade.",
+            Description: "Plataforma avançada de inteligência e gestão financeira pessoal. Arquitetura moderna e reativa construída com Next.js 15 (App Router), React 19, TypeScript e Supabase (PostgreSQL), com autenticação segura Google OAuth, controle de contas, cartões de crédito parcelados, recorrências e indicadores econômicos.",
             RepositoryURL: undefined,
             ProjectURL: undefined,
-            Tags: [".NET 8", "C#", "Next.js", "MongoDB", "TypeScript", "Docker"],
-            SkillsIcons: "dotnet,cs,nextjs,mongodb,ts,docker",
+            Tags: ["Next.js 15", "React 19", "Supabase", "PostgreSQL", "TypeScript", "Tailwind CSS"],
+            SkillsIcons: "nextjs,react,supabase,postgres,ts,tailwind",
             Private: true
         },
         {
@@ -101,11 +101,11 @@ export const projects: ProjectTranslations = {
         {
             id: 2,
             Title: "PipoFinance",
-            Description: "Advanced personal financial intelligence and management platform. Modern microservices architecture built with .NET 8, MongoDB NoSQL database, reactive frontend in Next.js and TypeScript, offering automated budgeting, cash flow insights, and high scalability.",
+            Description: "Advanced personal financial intelligence and management platform. Modern reactive architecture built with Next.js 15 (App Router), React 19, TypeScript, and Supabase (PostgreSQL), featuring Google OAuth authentication, account management, installment tracking, and live market indicators.",
             RepositoryURL: undefined,
             ProjectURL: undefined,
-            Tags: [".NET 8", "C#", "Next.js", "MongoDB", "TypeScript", "Docker"],
-            SkillsIcons: "dotnet,cs,nextjs,mongodb,ts,docker",
+            Tags: ["Next.js 15", "React 19", "Supabase", "PostgreSQL", "TypeScript", "Tailwind CSS"],
+            SkillsIcons: "nextjs,react,supabase,postgres,ts,tailwind",
             Private: true
         },
         {
