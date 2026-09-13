@@ -38,7 +38,12 @@ const TECH_ICON_MAP: Record<string, { label: string; iconName: string }> = {
   tailwind: { label: 'Tailwind CSS', iconName: 'logos:tailwindcss-icon' },
   tailwindcss: { label: 'Tailwind CSS', iconName: 'logos:tailwindcss-icon' },
   styledcomponents: { label: 'Styled Components', iconName: 'devicon:styledcomponents' },
+
+  // Testes & Qualidade
   selenium: { label: 'Selenium', iconName: 'logos:selenium' },
+  jest: { label: 'Jest', iconName: 'logos:jest' },
+  cypress: { label: 'Cypress', iconName: 'logos:cypress-icon' },
+  playwright: { label: 'Playwright', iconName: 'logos:playwright' },
 
   // Frameworks Back-end
   flask: { label: 'Flask', iconName: 'logos:flask' },

@@ -46,7 +46,7 @@ const Footer = memo(() => {
           <span className={styles.contactText}>E-mail</span>
         </a>
       </div>
-      <h3 className={styles.footerCopyright}>© 2023 Luiz Dev.</h3>
+      <h3 className={styles.footerCopyright}>© {new Date().getFullYear()} Luiz Dev.</h3>
     </footer>
   );
 });

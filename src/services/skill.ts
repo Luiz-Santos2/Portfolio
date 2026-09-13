@@ -21,8 +21,8 @@ export const skills: SkillTranslations = {
         {
             id: 2,
             title: "Front-end",
-            skills: "TypeScript, JavaScript, React, Next.js, Angular, HTML5, CSS3, Tailwind CSS, Styled Components, Selenium",
-            icons: "typescript,javascript,react,nextjs,angular,html5,css3,tailwind,styledcomponents,selenium"
+            skills: "TypeScript, JavaScript, React, Next.js, Angular, HTML5, CSS3, Tailwind CSS, Styled Components",
+            icons: "typescript,javascript,react,nextjs,angular,html5,css3,tailwind,styledcomponents"
         },
         {
             id: 3,
@@ -38,12 +38,18 @@ export const skills: SkillTranslations = {
         },
         {
             id: 5,
+            title: "Testes & Qualidade",
+            skills: "xUnit, Jest, Selenium (E2E / Automação), TDD, Testes Unitários e de Integração",
+            icons: "selenium,jest,csharp,dotnet"
+        },
+        {
+            id: 6,
             title: "DevOps & Ferramentas",
             skills: "Docker, Git, GitHub, GitHub Actions, Railway, Cloudflare R2, Postman, Vercel, Bash, Powershell, VS Code, Visual Studio",
             icons: "docker,git,github,githubactions,cloudflare,postman,vercel,bash,powershell,vscode,visualstudio"
         },
         {
-            id: 6,
+            id: 7,
             title: "Agentes de IA & AI Coding",
             skills: "Claude (Anthropic / Claude Code), Antigravity (Google DeepMind), OpenAI Codex, Cursor, LLMs, MCP (Model Context Protocol), Agentes Autônomos, Prompt & Context Engineering",
             icons: "claude,cursor,openai,antigravity"
@@ -59,8 +65,8 @@ export const skills: SkillTranslations = {
         {
             id: 2,
             title: "Front-end",
-            skills: "TypeScript, JavaScript, React, Next.js, Angular, HTML5, CSS3, Tailwind CSS, Styled Components, Selenium",
-            icons: "typescript,javascript,react,nextjs,angular,html5,css3,tailwind,styledcomponents,selenium"
+            skills: "TypeScript, JavaScript, React, Next.js, Angular, HTML5, CSS3, Tailwind CSS, Styled Components",
+            icons: "typescript,javascript,react,nextjs,angular,html5,css3,tailwind,styledcomponents"
         },
         {
             id: 3,
@@ -76,12 +82,18 @@ export const skills: SkillTranslations = {
         },
         {
             id: 5,
+            title: "Testing & QA",
+            skills: "xUnit, Jest, Selenium (E2E / Test Automation), TDD, Unit & Integration Testing",
+            icons: "selenium,jest,csharp,dotnet"
+        },
+        {
+            id: 6,
             title: "DevOps & Tools",
             skills: "Docker, Git, GitHub, GitHub Actions, Railway, Cloudflare R2, Postman, Vercel, Bash, Powershell, VS Code, Visual Studio",
             icons: "docker,git,github,githubactions,cloudflare,postman,vercel,bash,powershell,vscode,visualstudio"
         },
         {
-            id: 6,
+            id: 7,
             title: "AI Agents & AI Coding",
             skills: "Claude (Anthropic / Claude Code), Antigravity (Google DeepMind), OpenAI Codex, Cursor, LLMs, MCP (Model Context Protocol), Autonomous Agents, Prompt & Context Engineering",
             icons: "claude,cursor,openai,antigravity"

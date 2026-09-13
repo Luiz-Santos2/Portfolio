@@ -56,6 +56,28 @@ const ProjectItem = memo(({ project }: { project: Project }) => {
                 <AiFillChrome size={17} className={styles.githubIcon} /> {translate('webAccess')}
               </a>
             )}
+            {project.DemoURL && (
+              <a
+                href={project.DemoURL}
+                className={styles.webRepo}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Abrir demonstração em vídeo de ${project.Title} em nova aba`}
+              >
+                <AiFillChrome size={17} className={styles.githubIcon} /> {translate('demoVideo') || 'Demonstração'}
+              </a>
+            )}
+            {project.ArchitectureURL && (
+              <a
+                href={project.ArchitectureURL}
+                className={styles.webRepo}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Abrir arquitetura e documentação de ${project.Title} em nova aba`}
+              >
+                <AiFillChrome size={17} className={styles.githubIcon} /> {translate('viewArchitecture') || 'Arquitetura'}
+              </a>
+            )}
           </div>
 
           <TechIcons icons={project.SkillsIcons} size="sm" />
