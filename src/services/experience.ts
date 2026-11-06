@@ -16,7 +16,7 @@ export const experience: ExperienceTranslations = {
             id: 1,
             title: "Desenvolvedor Full Stack — StintEdu",
             description: "Arquitetura e desenvolvimento da plataforma educacional e soluções analíticas de Business Intelligence. Construção de APIs RESTful com Python e Flask, autenticação segura com JWT e processamento assíncrono. Modelagem e otimização de banco de dados relacional com PostgreSQL, gestão de cache e filas distribuídas com Redis e armazenamento escalável com Cloudflare R2. Orquestração e deploy contínuo em nuvem com Railway e Docker.",
-            date: "Agosto 2026 - Presente"
+            date: "Agosto 2026 - Novembro 2026"
         },
         {
             id: 2,
@@ -42,7 +42,7 @@ export const experience: ExperienceTranslations = {
             id: 1,
             title: "Full Stack Developer — StintEdu",
             description: "Architecture and engineering of educational platforms and analytical Business Intelligence solutions. Development of RESTful APIs with Python and Flask, secure JWT authentication, and asynchronous task processing. Database modeling and optimization with PostgreSQL, distributed caching and queues with Redis, and scalable object storage with Cloudflare R2. Cloud orchestration and continuous deployment via Railway and Docker.",
-            date: "August 2026 - Present"
+            date: "August 2026 - November 2026"
         },
         {
             id: 2,
